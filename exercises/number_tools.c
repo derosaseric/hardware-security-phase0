@@ -17,9 +17,13 @@ int square(int number)
 
 void print_sign(int number)
 {
-    if (number >= 0)
+    if (number > 0)
     {
         printf("Sign: Positive\n");
+    }
+    else if (number == 0)
+    {
+        printf("Sign: Zero\n");
     }
     else
     {
